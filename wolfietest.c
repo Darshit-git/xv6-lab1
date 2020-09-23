@@ -6,10 +6,10 @@
 int main(void)
 {
 
- void *buf = malloc(3000);
- int x = wolfie(buf,3000);
+ void *buffer = malloc(3000);
+ wolfie(buffer,3000);
 
- printf(1,"%d\n",x);
+ printf(1,"%s\n",(char *)buffer);
 
  return 0;
 }
